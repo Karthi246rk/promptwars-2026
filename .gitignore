@@ -1,0 +1,31 @@
+# Environment & secrets (NEVER commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+.next/
+.vite/
+coverage/
+npm-debug.log*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS & Editor bloat
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.mp4
+*.mov
