@@ -1,0 +1,56 @@
+{
+  "commissioner@civicresolve.gov": {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "title": "Municipal Commissioner",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "salt": "salt_commissioner_civicresolve_2026",
+    "passwordHash": "8833028f5ea1d5e9b295e8d157ed1102be41c97f28f24fdd46cd4836d39d4028cd96bff68520dd1ae3270129c02e382f0dba527e930d8cb7405fd3750bebd772"
+  },
+  "pwd@civicresolve.gov": {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "title": "Head - Public Works Department",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "salt": "salt_pwd_civicresolve_2026",
+    "passwordHash": "98460822a32f5360653184059629f1a6f2f0b4c00a62938b627cdcd17dac90d7354fde6015aa3d490300ad9f612a77bf6a91ed6fbc81054982661a91c119fc27"
+  },
+  "water@civicresolve.gov": {
+    "email": "water@civicresolve.gov",
+    "name": "Er. Sunita Rao",
+    "title": "Head - Water Supply Department",
+    "role": "department_head",
+    "department": "Water Supply Department",
+    "salt": "salt_water_civicresolve_2026",
+    "passwordHash": "5c7da1b831546453e68bdae0118b9f54eddfd5d8b776d34e3e16055ee61327d532e1b0f645c36c504be3ab16384e03b5b9ddfb32dfc950cd15be5dd1dfef47fa"
+  },
+  "power@civicresolve.gov": {
+    "email": "power@civicresolve.gov",
+    "name": "Er. Vikram Joshi",
+    "title": "Head - Electricity Department",
+    "role": "department_head",
+    "department": "Electricity Department",
+    "salt": "salt_power_civicresolve_2026",
+    "passwordHash": "4acdbcd6fb1c226e32955a17ea34e71c018b857e6cf8f47d4e939347659f67858b5ac7e143f0767e2ecd19a4c365081f45439cdee9cc73f4ffab7bf03cb305e8"
+  },
+  "sanitation@civicresolve.gov": {
+    "email": "sanitation@civicresolve.gov",
+    "name": "Shri Manoj Patel",
+    "title": "Head - Sanitation Department",
+    "role": "department_head",
+    "department": "Sanitation Department",
+    "salt": "salt_sanitation_civicresolve_2026",
+    "passwordHash": "32d6d60553c2f4ad748c58160a56b867cdc10b7a3f5a5baeaa6250327f79a23bd2012242449b868c98b7665db92376153c7c63d34f8f1486efdaa1059a768030"
+  },
+  "municipal@civicresolve.gov": {
+    "email": "municipal@civicresolve.gov",
+    "name": "Smt. Priya Sharma",
+    "title": "Head - Municipal Administration",
+    "role": "department_head",
+    "department": "Municipal Administration",
+    "salt": "salt_municipal_civicresolve_2026",
+    "passwordHash": "e0e4a5e38c6f708958bbb978a1ac812a25b6488df09547d8d475c2fb9653469c19ae5fe9737c9bd21554d94dc89924a6a88a4c48f5bb160833234445c3709bcd"
+  }
+}

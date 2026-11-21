@@ -1,0 +1,428 @@
+[
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "8e8f98b2-08da-4337-aee0-96174b318d25",
+    "timestamp": "2026-11-21T11:00:42.496Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "d8f0642c-7bb6-43c6-a110-23530ffd0a44",
+    "timestamp": "2026-11-21T11:00:42.466Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "c3c83c34-85c0-4f3f-b13a-03e12b8b075e",
+    "timestamp": "2026-11-21T11:00:42.432Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "ea54fc91-d475-4164-8aec-87d662b13787",
+    "timestamp": "2026-11-21T10:59:10.272Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "e12bff6f-cf49-4076-93c6-8113e2f32443",
+    "timestamp": "2026-11-21T10:59:10.239Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "21018062-8991-4c86-bf58-24ff3c582163",
+    "timestamp": "2026-11-21T10:59:10.208Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "0890336c-6ee3-4562-98db-6e2f36c7db4f",
+    "timestamp": "2026-11-21T10:25:11.558Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "96151b62-33e1-4360-a39b-9b6e7384d85f",
+    "timestamp": "2026-11-21T10:25:11.533Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "2847b09c-f400-405b-99c8-b21883692600",
+    "timestamp": "2026-11-21T10:25:11.505Z"
+  },
+  {
+    "email": "water@civicresolve.gov",
+    "name": "Er. Sunita Rao",
+    "role": "department_head",
+    "department": "Water Supply Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "id": "ed6fe6c5-eeef-44c0-a3e6-119811bdcae6",
+    "timestamp": "2026-11-21T10:13:06.268Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "id": "2282e930-8258-4fda-85c6-5b36b4aa8932",
+    "timestamp": "2026-11-21T10:12:32.317Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "id": "9e148220-4666-4131-8414-20d066260fff",
+    "timestamp": "2026-11-21T10:12:03.034Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "06080510-4e1f-4ed3-b2a7-15585cadf81c",
+    "timestamp": "2026-11-21T09:57:03.497Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "fa71ecde-5d50-4d22-b254-df1dec73b52c",
+    "timestamp": "2026-11-21T09:57:03.472Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "64c1a636-862e-4a8c-985a-21c63c5e26c9",
+    "timestamp": "2026-11-21T09:57:03.446Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "d37f37ea-adcc-48c0-8187-62fdffb3fb6f",
+    "timestamp": "2026-11-21T09:54:55.281Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "c54603ce-6410-4347-9572-2c922a1a4970",
+    "timestamp": "2026-11-21T09:54:55.256Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "f7d7b40d-7f60-487b-bbd9-186439194848",
+    "timestamp": "2026-11-21T09:54:55.229Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "0155c866-b56a-406a-b14d-57529da4ad22",
+    "timestamp": "2026-11-21T09:53:48.468Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "5fcdd151-129c-44db-bf73-73efbba975bf",
+    "timestamp": "2026-11-21T09:53:48.442Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "9745e8af-b631-4e71-892b-16e440c009a7",
+    "timestamp": "2026-11-21T09:53:48.415Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "id": "06ee4e5a-945b-43ec-80f0-af2757c4f5cb",
+    "timestamp": "2026-11-21T09:34:13.800Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "3b3af4a6-a223-4585-86a5-444f1c09a9a9",
+    "timestamp": "2026-11-21T09:25:30.602Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "7f8b0edd-557f-47b4-b4b0-c0cddfb72d96",
+    "timestamp": "2026-11-21T09:25:30.572Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "277d9127-fb96-432e-9229-395fbbeb9cbc",
+    "timestamp": "2026-11-21T09:25:30.540Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "f8134c8c-39ef-4e38-a6b0-2238e5ff7bd5",
+    "timestamp": "2026-11-21T09:23:59.964Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "4bf30c9a-833f-4eae-8072-c6f1744ba34d",
+    "timestamp": "2026-11-21T09:23:59.933Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "532a4314-ac97-4e96-9005-4b08e1e8aac5",
+    "timestamp": "2026-11-21T09:23:59.902Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "613ca828-79c7-42d4-8196-647d5e24d049",
+    "timestamp": "2026-11-21T09:22:54.577Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "95b5431e-14ef-44ab-9dc4-2b1426dc5b1a",
+    "timestamp": "2026-11-21T09:22:54.544Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "40e1803e-2249-4c55-bd5a-b6cf33576e32",
+    "timestamp": "2026-11-21T09:22:54.511Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "684fc56b-ee9c-4f92-81c2-c479469ba869",
+    "timestamp": "2026-11-21T09:21:31.094Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "ff2d0da6-1db6-466d-bb6b-80974917fb5f",
+    "timestamp": "2026-11-21T09:21:31.064Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "c2700173-6d5e-4896-bf47-4ffbc7483000",
+    "timestamp": "2026-11-21T09:21:31.033Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "4071a9c4-0691-4707-94f4-d3e9c1f2b7f4",
+    "timestamp": "2026-11-21T08:10:55.835Z"
+  },
+  {
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "61f8bd45-201c-4cc6-ac84-49dbf434819e",
+    "timestamp": "2026-11-21T08:08:15.914Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "c33692a8-f42e-494a-b22a-9c8258f1f382",
+    "timestamp": "2026-11-21T08:08:15.884Z"
+  },
+  {
+    "email": "commissioner@civicresolve.gov",
+    "status": "FAILED_PASSWORD",
+    "ip": "::1",
+    "userAgent": "node",
+    "id": "8b8fc12c-1ff2-44ff-8b92-cd3694fc2985",
+    "timestamp": "2026-11-21T08:08:15.853Z"
+  },
+  {
+    "id": "68cffe08-3118-4bfa-8806-b626f6139176",
+    "email": "commissioner@civicresolve.gov",
+    "name": "Dr. Anita Roy, IAS",
+    "role": "super_admin",
+    "department": "Super Admin",
+    "status": "SUCCESS",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131.0.0.0",
+    "timestamp": "2026-11-21T06:08:15.389Z"
+  },
+  {
+    "id": "81dde4c7-3075-4dbb-8c50-3c532c92af57",
+    "email": "pwd@civicresolve.gov",
+    "name": "Er. Rajesh Varma",
+    "role": "department_head",
+    "department": "Public Works Department",
+    "status": "SUCCESS",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131.0.0.0",
+    "timestamp": "2026-11-21T02:08:15.389Z"
+  },
+  {
+    "id": "6d26e7c1-08a0-49eb-8b5a-70c9c737d182",
+    "email": "intruder@unknown.com",
+    "status": "FAILED_PASSWORD",
+    "ip": "192.168.1.105",
+    "userAgent": "Python-requests/2.31.0",
+    "timestamp": "2026-11-20T20:08:15.389Z"
+  },
+  {
+    "id": "385ace3c-d414-446f-a927-6b43dc56b464",
+    "email": "water@civicresolve.gov",
+    "name": "Er. Sunita Rao",
+    "role": "department_head",
+    "department": "Water Supply Department",
+    "status": "SUCCESS",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+    "timestamp": "2026-11-20T14:08:15.389Z"
+  }
+]

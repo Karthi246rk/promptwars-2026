@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "c8f881b4-20ae-4960-a930-9c8868d23849",
+    "trackingId": "CR-2026-001",
+    "title": "Massive Pothole on MG Road",
+    "description": "A large pothole approximately 3 feet wide and 1 foot deep has formed on MG Road near the central junction. Multiple vehicles have been damaged and two-wheeler riders are at serious risk.",
+    "location": "MG Road, Central Junction, Near City Mall",
+    "latitude": 11.0182,
+    "longitude": 76.9584,
+    "category": "Road & Potholes",
+    "priority": "Critical",
+    "priorityScore": 92,
+    "impactReasoning": "Critical arterial road hazard posing immediate danger to motorists and traffic flow.",
+    "department": "Public Works Department",
+    "aiSummary": "Critical road hazard: 3-foot wide pothole on MG Road near central junction.",
+    "recommendedAction": "Immediate cold-mix patch followed by permanent asphalt overlay.",
+    "estimatedResolutionHours": 24,
+    "status": "Reported",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Issue reported by citizen",
+        "timestamp": "2026-11-11T11:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Field officer assigned: Suresh K.",
+        "timestamp": "2026-11-13T11:00:41.817Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "Pothole filled and sealed with hot-mix asphalt.",
+        "timestamp": "2026-11-16T11:00:41.817Z"
+      },
+      {
+        "status": "Reported",
+        "note": "Status changed to Reported (Issue reopened by citizen: Pothole opened up again after rain)",
+        "timestamp": "2026-11-21T11:00:42.389Z"
+      }
+    ],
+    "upvotes": 18,
+    "citizenReportCount": 4,
+    "assignedOfficer": "Suresh Kumar (PWD Field Eng)",
+    "slaTargetHours": 72,
+    "slaDeadline": "2026-11-14T11:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "citizenRating": 5,
+    "citizenFeedback": "Excellent response and clean site repair.",
+    "reopenCount": 1,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-11T11:00:41.817Z",
+    "updatedAt": "2026-11-21T11:00:42.389Z",
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T11:00:42.386Z",
+        "action": "Citizen satisfaction rating submitted: 5★ - \"Excellent response and clean site repair.\"",
+        "performedBy": "Citizen",
+        "role": "Citizen"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.389Z",
+        "action": "Case reopened by citizen: \"Pothole opened up again after rain\"",
+        "performedBy": "Citizen",
+        "role": "Citizen"
+      }
+    ],
+    "caseId": "CR-2026-001",
+    "subcategory": "Deep Asphalt Pothole",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "a5840685-990e-47b3-8eae-d30cfc6249ca",
+        "update": "Issue reported by citizen",
+        "timestamp": "2026-11-11T11:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "16b91f52-3502-48c3-919d-98c517c8773e",
+        "update": "Field officer assigned: Suresh K.",
+        "timestamp": "2026-11-13T11:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "7ad78d5d-d948-4be2-83b6-2c147fa9e0ee",
+        "update": "Pothole filled and sealed with hot-mix asphalt.",
+        "timestamp": "2026-11-16T11:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "3055967e-a771-41a6-a406-b03df2956754",
+        "update": "Status changed to Reported (Issue reopened by citizen: Pothole opened up again after rain)",
+        "timestamp": "2026-11-21T11:00:42.389Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-11T11:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "63440bae-09a9-48a3-bb06-da9ebb54ac01",
+    "trackingId": "CR-2026-002",
+    "title": "Overflowing Garbage Bins Near Central Market",
+    "description": "The garbage bins outside the Central Market have not been cleared for over 4 days. Trash is overflowing onto the sidewalk creating health hazards and attracting stray dogs.",
+    "location": "Central Market, Main Entrance, Ward 12",
+    "latitude": 11.0145,
+    "longitude": 76.952,
+    "category": "Garbage & Sanitation",
+    "priority": "High",
+    "priorityScore": 78,
+    "impactReasoning": "Severe sanitation risk near high-footfall marketplace with decaying bio-waste.",
+    "department": "Sanitation Department",
+    "aiSummary": "Overflowing commercial waste bins at market entrance requiring immediate compactor truck dispatch.",
+    "recommendedAction": "Dispatch mechanical refuse truck and sanitize bin surroundings with lime powder.",
+    "estimatedResolutionHours": 12,
+    "status": "In Progress",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Issue reported by local shopkeeper association",
+        "timestamp": "2026-11-20T01:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Sanitation supervisor Arvind M. scheduled pickup truck",
+        "timestamp": "2026-11-21T07:00:41.817Z"
+      }
+    ],
+    "upvotes": 9,
+    "citizenReportCount": 2,
+    "assignedOfficer": "Arvind Mehra (Sanitation Inspector)",
+    "slaTargetHours": 24,
+    "slaDeadline": "2026-11-22T01:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-20T01:00:41.817Z",
+    "updatedAt": "2026-11-21T07:00:41.817Z",
+    "caseId": "CR-2026-002",
+    "subcategory": "Overflowing Public Dustbins",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "709515db-dff3-44e9-a82f-c391597f5187",
+        "update": "Issue reported by local shopkeeper association",
+        "timestamp": "2026-11-20T01:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "d29666b3-b479-43a8-ac5b-aa6ff7d247e9",
+        "update": "Sanitation supervisor Arvind M. scheduled pickup truck",
+        "timestamp": "2026-11-21T07:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-20T01:00:41.817Z",
+        "action": "Status marked as Reported: Issue reported by local shopkeeper association",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-21T07:00:41.817Z",
+        "action": "Status marked as In Progress: Sanitation supervisor Arvind M. scheduled pickup truck",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-20T01:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "27f0e6b1-a714-4231-ae53-67efd26f48e6",
+    "trackingId": "CR-2026-003",
+    "title": "Broken Streetlight on 5th Avenue",
+    "description": "Streetlight pole #ST-547 on 5th Avenue near the park entrance has been non-functional for past 5 days. Complete darkness causes safety concerns for evening pedestrians and women commuters.",
+    "location": "5th Avenue, Near City Park Entrance, Sector 7",
+    "latitude": 11.021,
+    "longitude": 76.961,
+    "category": "Streetlights & Power",
+    "priority": "Medium",
+    "priorityScore": 65,
+    "impactReasoning": "Public safety risk during night hours on an active pedestrian boulevard.",
+    "department": "Electricity Department",
+    "aiSummary": "Faulty streetlight pole #ST-547 causing dark corridor near public park.",
+    "recommendedAction": "Replace 120W LED fixture and inspect underground line connection.",
+    "estimatedResolutionHours": 48,
+    "status": "Reported",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Initial citizen report received",
+        "timestamp": "2026-11-16T11:00:41.817Z"
+      }
+    ],
+    "upvotes": 6,
+    "citizenReportCount": 3,
+    "slaTargetHours": 48,
+    "slaDeadline": "2026-11-18T11:00:41.817Z",
+    "slaBreached": true,
+    "isEscalated": true,
+    "hoursOverdue": 72,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-16T11:00:41.817Z",
+    "updatedAt": "2026-11-16T11:00:41.817Z",
+    "caseId": "CR-2026-003",
+    "subcategory": "Defective Streetlight Luminaire",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "6c055ac5-275e-4b14-afb6-bc54ec91cba0",
+        "update": "Initial citizen report received",
+        "timestamp": "2026-11-16T11:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-16T11:00:41.817Z",
+        "action": "Status marked as Reported: Initial citizen report received",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-16T11:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "09d0fdc1-112b-4bbb-a80d-bde5c99d5e61",
+    "trackingId": "CR-2026-004",
+    "title": "Water Pipeline Leak at Gandhi Nagar",
+    "description": "A major 8-inch water distribution pipeline is ruptured at Gandhi Nagar intersection. Thousands of liters of potable water are being wasted hourly, causing low tap pressure across Ward 4.",
+    "location": "Gandhi Nagar, Intersection with Nehru Street, Block C",
+    "latitude": 11.012,
+    "longitude": 76.949,
+    "category": "Water Leakage & Supply",
+    "priority": "High",
+    "priorityScore": 82,
+    "impactReasoning": "Continuous potable water loss, road erosion, and essential utility outage for 300+ households.",
+    "department": "Water Supply Department",
+    "aiSummary": "Critical distribution pipe burst at Gandhi Nagar junction causing road submergence.",
+    "recommendedAction": "Isolate upstream sluice valve, excavate leak point, and weld replacement collar clamp.",
+    "estimatedResolutionHours": 24,
+    "status": "In Progress",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Reported by ward resident",
+        "timestamp": "2026-11-20T09:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Valve shutoff completed by pipeline gang",
+        "timestamp": "2026-11-21T05:00:41.817Z"
+      }
+    ],
+    "upvotes": 14,
+    "citizenReportCount": 3,
+    "assignedOfficer": "K. Rajendran (Junior Water Engineer)",
+    "slaTargetHours": 24,
+    "slaDeadline": "2026-11-22T09:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-20T09:00:41.817Z",
+    "updatedAt": "2026-11-21T05:00:41.817Z",
+    "caseId": "CR-2026-004",
+    "subcategory": "Main Distribution Pipeline Rupture",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "90cecabb-27ae-43aa-b3fa-5889bdffd24e",
+        "update": "Reported by ward resident",
+        "timestamp": "2026-11-20T09:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "d8b99e5e-5366-48e2-9c96-4340a8f43f0b",
+        "update": "Valve shutoff completed by pipeline gang",
+        "timestamp": "2026-11-21T05:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-20T09:00:41.817Z",
+        "action": "Status marked as Reported: Reported by ward resident",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-21T05:00:41.817Z",
+        "action": "Status marked as In Progress: Valve shutoff completed by pipeline gang",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-20T09:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "7abc9d64-cd8d-4a0c-820d-02609e13d124",
+    "trackingId": "CR-2026-005",
+    "title": "Damaged Road Divider on NH-48",
+    "description": "Concrete median barrier fractured with heavy rubble thrown across the fast lane on NH-48 near Toll Plaza. Motorists forced into abrupt swerves.",
+    "location": "NH-48, Near Toll Plaza, KM 42",
+    "latitude": 11.025,
+    "longitude": 76.965,
+    "category": "Road & Potholes",
+    "priority": "Critical",
+    "priorityScore": 90,
+    "impactReasoning": "High-speed highway obstruction prone to catastrophic multi-vehicle pileups.",
+    "department": "Public Works Department",
+    "aiSummary": "Shattered highway median barrier obstructing overtaking lane near toll gate.",
+    "recommendedAction": "Deploy reflective lane cones, clear debris immediately, and install precast Jersey barriers.",
+    "estimatedResolutionHours": 48,
+    "status": "Reported",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Highway patrol reported collision aftermath",
+        "timestamp": "2026-11-21T03:00:41.817Z"
+      }
+    ],
+    "upvotes": 8,
+    "citizenReportCount": 1,
+    "slaTargetHours": 72,
+    "slaDeadline": "2026-11-24T03:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-21T03:00:41.817Z",
+    "updatedAt": "2026-11-21T03:00:41.817Z",
+    "caseId": "CR-2026-005",
+    "subcategory": "Damaged Road Divider",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "dffc46a0-c93d-468e-9020-e2f8997000a8",
+        "update": "Highway patrol reported collision aftermath",
+        "timestamp": "2026-11-21T03:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T03:00:41.817Z",
+        "action": "Status marked as Reported: Highway patrol reported collision aftermath",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-21T03:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "d9a96ebd-899e-4dea-a8cf-d3c96d1bf6d6",
+    "trackingId": "CR-2026-006",
+    "title": "Open Drainage Cover Near School Zone",
+    "description": "A large 2.5-foot stormwater manhole cover is completely missing on Park Street right outside St. Mary’s Primary School. Severe fatal hazard for young students during dismissal hours.",
+    "location": "Park Street, Near St. Mary’s School, Ward 5",
+    "latitude": 11.0168,
+    "longitude": 76.9558,
+    "category": "Public Safety",
+    "priority": "Critical",
+    "priorityScore": 96,
+    "impactReasoning": "Imminent life safety hazard for school children directly on the pedestrian walking path.",
+    "department": "Municipal Administration",
+    "aiSummary": "Uncovered 6-foot deep storm chamber at primary school gate.",
+    "recommendedAction": "Erect barricade guard immediately; install reinforced ductile iron cover within 4 hours.",
+    "estimatedResolutionHours": 12,
+    "status": "Reported",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Urgent alert from School Principal",
+        "timestamp": "2026-11-21T08:00:41.817Z"
+      }
+    ],
+    "upvotes": 24,
+    "citizenReportCount": 5,
+    "slaTargetHours": 12,
+    "slaDeadline": "2026-11-21T20:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "reopenCount": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-21T08:00:41.817Z",
+    "updatedAt": "2026-11-21T11:00:42.398Z",
+    "internalAdminNotes": [
+      {
+        "id": "6c440ae8-626e-4dfa-8878-960c3f7f7c55",
+        "note": "Field technician inspected area; tools requisitioned.",
+        "author": "officer@civicresolve.gov",
+        "timestamp": "2026-11-21T11:00:42.395Z"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T11:00:42.395Z",
+        "action": "Internal note added: \"Field technician inspected area; tools requisitioned.\"",
+        "performedBy": "officer@civicresolve.gov",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.398Z",
+        "action": "Public progress update published: \"Site survey completed. Repair crew scheduled for tomorrow 9 ...\"",
+        "performedBy": "Public Works Division",
+        "role": "Authority"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "5ace0fb5-9699-46ad-a1fe-4408d4692637",
+        "update": "Site survey completed. Repair crew scheduled for tomorrow 9 AM.",
+        "author": "Public Works Division",
+        "timestamp": "2026-11-21T11:00:42.398Z"
+      }
+    ],
+    "caseId": "CR-2026-006",
+    "subcategory": "Missing Stormwater Manhole Cover",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-21T08:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "490cdd95-a33e-4cfd-b6b0-e06af1bf499d",
+    "trackingId": "CR-2026-007",
+    "title": "Ruptured Water Meter at Green Valley",
+    "description": "Distribution water meter cracked and spurting water across apartment entrance sidewalk. Potable water wastage and pedestrian slippery hazard.",
+    "location": "Green Valley Apartments, Phase 2 Entrance",
+    "latitude": 11.0112,
+    "longitude": 76.9465,
+    "category": "Water Leakage & Supply",
+    "priority": "Medium",
+    "priorityScore": 74,
+    "impactReasoning": "Continuous potable water loss and slippery entrance for apartment residents.",
+    "department": "Water Supply Department",
+    "aiSummary": "Cracked commercial water meter leaking onto apartment pathway.",
+    "recommendedAction": "Replace cracked brass meter flange and verify line pressure.",
+    "estimatedResolutionHours": 24,
+    "status": "Resolved",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Resident welfare association submitted photo",
+        "timestamp": "2026-11-18T07:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Technician dispatched with meter assembly",
+        "timestamp": "2026-11-18T10:00:41.817Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "New meter unit fitted and tested leak-free",
+        "timestamp": "2026-11-19T05:00:41.817Z"
+      }
+    ],
+    "upvotes": 11,
+    "citizenReportCount": 2,
+    "assignedOfficer": "S. Chandran (Water Inspector)",
+    "slaTargetHours": 24,
+    "slaDeadline": "2026-11-19T07:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "resolvedAt": "2026-11-19T05:00:41.817Z",
+    "citizenRating": 4,
+    "citizenFeedback": "Prompt replacement of ruptured distribution meter. Water pressure restored.",
+    "reopenCount": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-18T07:00:41.817Z",
+    "updatedAt": "2026-11-19T05:00:41.817Z",
+    "caseId": "CR-2026-007",
+    "subcategory": "Commercial Water Meter Burst",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "a4f08944-1cf9-4e08-ab9b-6ad13376e344",
+        "update": "Resident welfare association submitted photo",
+        "timestamp": "2026-11-18T07:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "b6e97ce0-f51b-44e8-89bf-2fc74d83b1ee",
+        "update": "Technician dispatched with meter assembly",
+        "timestamp": "2026-11-18T10:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "2b6dd337-d0e9-482c-bc94-1fc666db3c9d",
+        "update": "New meter unit fitted and tested leak-free",
+        "timestamp": "2026-11-19T05:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-18T07:00:41.817Z",
+        "action": "Status marked as Reported: Resident welfare association submitted photo",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-18T10:00:41.817Z",
+        "action": "Status marked as In Progress: Technician dispatched with meter assembly",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-19T05:00:41.817Z",
+        "action": "Status marked as Resolved: New meter unit fitted and tested leak-free",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-18T07:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "cfd8b6ee-d131-4e7a-a764-d487d773d01a",
+    "trackingId": "CR-2026-008",
+    "title": "High-Voltage Cable Insulation Exposed on Cross Road",
+    "description": "Underground junction box cover dislodged exposing heavy 440V distribution lines right beside pedestrian bus shelter.",
+    "location": "Cross Road 4, Bus Shelter Junction",
+    "latitude": 11.0195,
+    "longitude": 76.9632,
+    "category": "Streetlights & Power",
+    "priority": "High",
+    "priorityScore": 78,
+    "impactReasoning": "Exposed live power junction in high-footfall passenger bus shelter area.",
+    "department": "Electricity Department",
+    "aiSummary": "Dislodged distribution cover exposing 440V cables at bus stop.",
+    "recommendedAction": "Insulate cables, apply heat-shrink wrap, and bolt cast-iron junction hatch.",
+    "estimatedResolutionHours": 24,
+    "status": "Resolved",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Bus commuter emergency report",
+        "timestamp": "2026-11-17T09:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Line crew barricaded spot and disconnected feed",
+        "timestamp": "2026-11-17T17:00:41.817Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "Hatch bolted shut and lines tested safe",
+        "timestamp": "2026-11-18T09:00:41.817Z"
+      }
+    ],
+    "upvotes": 15,
+    "citizenReportCount": 3,
+    "assignedOfficer": "Anand V. (Assistant Electrical Engineer)",
+    "slaTargetHours": 48,
+    "slaDeadline": "2026-11-19T09:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "resolvedAt": "2026-11-18T09:00:41.817Z",
+    "citizenRating": 4,
+    "citizenFeedback": "Insulation replaced and conduit bolted securely. Safe for pedestrians.",
+    "reopenCount": 1,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-17T09:00:41.817Z",
+    "updatedAt": "2026-11-18T09:00:41.817Z",
+    "caseId": "CR-2026-008",
+    "subcategory": "Exposed High-Voltage Distribution Lines",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "6a9d0c8f-edef-4d74-b2d4-de9d829a3696",
+        "update": "Bus commuter emergency report",
+        "timestamp": "2026-11-17T09:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "0916a57b-af30-4915-8f68-55da5ac0f2e0",
+        "update": "Line crew barricaded spot and disconnected feed",
+        "timestamp": "2026-11-17T17:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "e4dde2de-e55a-4f2c-9e8f-48f9faf86697",
+        "update": "Hatch bolted shut and lines tested safe",
+        "timestamp": "2026-11-18T09:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-17T09:00:41.817Z",
+        "action": "Status marked as Reported: Bus commuter emergency report",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-17T17:00:41.817Z",
+        "action": "Status marked as In Progress: Line crew barricaded spot and disconnected feed",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-18T09:00:41.817Z",
+        "action": "Status marked as Resolved: Hatch bolted shut and lines tested safe",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-17T09:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "b8c1ea54-8fe3-493a-ba91-3ed060c1b058",
+    "trackingId": "CR-2026-009",
+    "title": "Commercial Waste Cleared from Shastri Nagar",
+    "description": "Bulk construction debris and commercial boxes dumped illegally on Shastri Nagar playground corner. Dust and safety hazard for playing children.",
+    "location": "Shastri Nagar Municipal Playground, North Corner",
+    "latitude": 11.0135,
+    "longitude": 76.9535,
+    "category": "Garbage & Sanitation",
+    "priority": "High",
+    "priorityScore": 80,
+    "impactReasoning": "Illegal construction debris blocking public children playground.",
+    "department": "Sanitation Department",
+    "aiSummary": "Commercial waste and broken bricks dumped on playground corner.",
+    "recommendedAction": "Dispatch JCB loader and dump truck to clear debris; level soil.",
+    "estimatedResolutionHours": 24,
+    "status": "Resolved",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Youth sports club reported dumped debris",
+        "timestamp": "2026-11-19T09:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "JCB earthmover deployed to playground",
+        "timestamp": "2026-11-19T19:00:41.817Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "Debris trucked to processing yard and ground leveled",
+        "timestamp": "2026-11-20T03:00:41.817Z"
+      }
+    ],
+    "upvotes": 21,
+    "citizenReportCount": 4,
+    "assignedOfficer": "M. Selvaraj (Sanitation Supervisor)",
+    "slaTargetHours": 24,
+    "slaDeadline": "2026-11-20T09:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "resolvedAt": "2026-11-20T03:00:41.817Z",
+    "citizenRating": 5,
+    "citizenFeedback": "Ground completely cleared in under 20 hours! Children are back playing football.",
+    "reopenCount": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-19T09:00:41.817Z",
+    "updatedAt": "2026-11-20T03:00:41.817Z",
+    "caseId": "CR-2026-009",
+    "subcategory": "Illegal Debris & Waste Dumping",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "f6e1703a-ebc3-4143-9123-067a88568645",
+        "update": "Youth sports club reported dumped debris",
+        "timestamp": "2026-11-19T09:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "f7fb9260-107a-478e-bd12-2f169b7cc271",
+        "update": "JCB earthmover deployed to playground",
+        "timestamp": "2026-11-19T19:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "79ab8f81-2bfc-4476-a358-5cee2d7a28d7",
+        "update": "Debris trucked to processing yard and ground leveled",
+        "timestamp": "2026-11-20T03:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-19T09:00:41.817Z",
+        "action": "Status marked as Reported: Youth sports club reported dumped debris",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-19T19:00:41.817Z",
+        "action": "Status marked as In Progress: JCB earthmover deployed to playground",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-20T03:00:41.817Z",
+        "action": "Status marked as Resolved: Debris trucked to processing yard and ground leveled",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-19T09:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "id": "c13da6a9-c8b9-4c75-b992-b2c22b662cee",
+    "trackingId": "CR-2026-010",
+    "title": "Missing Community Center Railing Replaced",
+    "description": "Broken handrail along steep entrance stairs at Ward 9 Community Hall. Elderly citizens unable to climb steps safely for pension distribution.",
+    "location": "Ward 9 Municipal Community Hall, Main Steps",
+    "latitude": 11.0175,
+    "longitude": 76.9572,
+    "category": "Public Safety",
+    "priority": "High",
+    "priorityScore": 82,
+    "impactReasoning": "Steep stair fall hazard for senior citizens attending civic center.",
+    "department": "Municipal Administration",
+    "aiSummary": "Fractured handrail on steep municipal hall entrance steps.",
+    "recommendedAction": "Fabricate and anchor heavy-duty stainless steel railing into concrete steps.",
+    "estimatedResolutionHours": 24,
+    "status": "Resolved",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Senior citizens association request",
+        "timestamp": "2026-11-18T03:00:41.817Z"
+      },
+      {
+        "status": "In Progress",
+        "note": "Fabrication gang took measurements",
+        "timestamp": "2026-11-18T15:00:41.817Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "Heavy-duty steel railing welded and anchor-bolted",
+        "timestamp": "2026-11-19T01:00:41.817Z"
+      }
+    ],
+    "upvotes": 19,
+    "citizenReportCount": 3,
+    "assignedOfficer": "V. Prakash (Civic Maintenance Overseer)",
+    "slaTargetHours": 24,
+    "slaDeadline": "2026-11-19T03:00:41.817Z",
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "resolvedAt": "2026-11-19T01:00:41.817Z",
+    "citizenRating": 5,
+    "citizenFeedback": "Sturdy steel railing installed firmly. Seniors can now climb steps with confidence.",
+    "reopenCount": 0,
+    "aiPowered": true,
+    "modelUsed": "gemini-4-hydrogen",
+    "createdAt": "2026-11-18T03:00:41.817Z",
+    "updatedAt": "2026-11-19T01:00:41.817Z",
+    "caseId": "CR-2026-010",
+    "subcategory": "Critical Pedestrian Life Hazard",
+    "citizenName": "Concerned Citizen",
+    "citizenContact": "+91 98401 23456",
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "0f84417c-db07-49ea-a2d9-0c097af4134c",
+        "update": "Senior citizens association request",
+        "timestamp": "2026-11-18T03:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "9a1fed11-a926-4804-818c-00a42636317b",
+        "update": "Fabrication gang took measurements",
+        "timestamp": "2026-11-18T15:00:41.817Z",
+        "author": "Municipal Field Team"
+      },
+      {
+        "id": "ed37d647-7abd-4dbf-a212-4fc7dd1d75a9",
+        "update": "Heavy-duty steel railing welded and anchor-bolted",
+        "timestamp": "2026-11-19T01:00:41.817Z",
+        "author": "Municipal Field Team"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-18T03:00:41.817Z",
+        "action": "Status marked as Reported: Senior citizens association request",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-18T15:00:41.817Z",
+        "action": "Status marked as In Progress: Fabrication gang took measurements",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-19T01:00:41.817Z",
+        "action": "Status marked as Resolved: Heavy-duty steel railing welded and anchor-bolted",
+        "performedBy": "Municipal Authority",
+        "role": "Authority"
+      }
+    ],
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 96,
+      "reason": "Realistic on-site civic infrastructure photograph verified",
+      "checkedAt": "2026-11-18T03:00:41.817Z"
+    },
+    "imageUrls": []
+  },
+  {
+    "title": "Water Main Burst on Marina Radial Road",
+    "description": "Major water pipeline rupture causing severe flooding on Marina Radial road.",
+    "location": "Marina Beach Road, Chennai",
+    "latitude": 11.015712,
+    "longitude": 76.954122,
+    "category": "Road & Potholes",
+    "subcategory": "Deep Asphalt Pothole",
+    "citizenName": "Deepak V.",
+    "priority": "High",
+    "priorityScore": 73,
+    "impactReasoning": "Rule-based assessment: Issue categorized as Road & Potholes (Deep Asphalt Pothole) with High priority based on keyword analysis of the report.",
+    "department": "Public Works Department",
+    "aiSummary": "Water Main Burst on Marina Radial Road reported at Marina Beach Road, Chennai. Categorized under Road & Potholes (Deep Asphalt Pothole).",
+    "recommendedAction": "Assign to Public Works Department for inspection and remediation.",
+    "estimatedResolutionHours": 48,
+    "aiPowered": false,
+    "modelUsed": "rule-based-fallback",
+    "reporterContact": "+91 98401 11223",
+    "imageUrls": [],
+    "id": "4afefdac-668b-41ed-b75e-09f84a540c5b",
+    "trackingId": "CR-2026-011",
+    "caseId": "CR-2026-011",
+    "citizenContact": "+91 98401 11223",
+    "status": "Reported",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Case registered by citizen (+91 98401 11223)",
+        "timestamp": "2026-11-21T11:00:42.604Z"
+      }
+    ],
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "11410f1e-846e-46ef-a1d6-49e985453152",
+        "update": "Official Case File #CR-2026-011 registered. Triaged to Public Works Department.",
+        "timestamp": "2026-11-21T11:00:42.604Z",
+        "author": "CivicResolve Municipal AI"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T11:00:42.604Z",
+        "action": "Complaint Submitted & Digital Case File Opened",
+        "performedBy": "Deepak V.",
+        "role": "Citizen Reporter"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.604Z",
+        "action": "AI Triage: Classified as Road & Potholes (Deep Asphalt Pothole) with priority High",
+        "performedBy": "Gemini AI Engine",
+        "role": "System AI"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.706Z",
+        "action": "AI Photo Authenticity Check: Verified (Realistic on-site municipal complaint photograph verified authentic against municipal landmarks.)",
+        "performedBy": "Gemini Vision AI Engine",
+        "role": "System AI"
+      }
+    ],
+    "upvotes": 1,
+    "citizenReportCount": 1,
+    "linkedReports": [],
+    "slaDeadline": "2026-11-23T23:00:42.604Z",
+    "slaTargetHours": 60,
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 98,
+      "reason": "Realistic on-site municipal complaint photograph verified authentic against municipal landmarks.",
+      "checkedAt": "2026-11-21T11:00:42.706Z"
+    },
+    "createdAt": "2026-11-21T11:00:42.604Z",
+    "updatedAt": "2026-11-21T11:00:42.706Z"
+  },
+  {
+    "title": "Broken Streetlamp Outside Ward 4 Community Centre",
+    "description": "Streetlamp completely dead causing dark zone hazard on cross street.",
+    "location": "Ward 4 Community Centre, Zone 2",
+    "latitude": 11.0131,
+    "longitude": 76.955816,
+    "category": "Streetlights & Power",
+    "subcategory": "Defective Streetlight Luminaire",
+    "citizenName": "Priya Sundaram",
+    "priority": "Critical",
+    "priorityScore": 83,
+    "impactReasoning": "Rule-based assessment: Issue categorized as Streetlights & Power (Defective Streetlight Luminaire) with Critical priority based on keyword analysis of the report.",
+    "department": "Electricity Department",
+    "aiSummary": "Broken Streetlamp Outside Ward 4 Community Centre reported at Ward 4 Community Centre, Zone 2. Categorized under Streetlights & Power (Defective Streetlight Luminaire).",
+    "recommendedAction": "Assign to Electricity Department for inspection and remediation.",
+    "estimatedResolutionHours": 24,
+    "aiPowered": false,
+    "modelUsed": "rule-based-fallback",
+    "reporterContact": "citizen@civicresolve.in",
+    "imageUrls": [],
+    "id": "f36184c5-101d-4b9c-88e2-3e0eb0c94d42",
+    "trackingId": "CR-2026-012",
+    "caseId": "CR-2026-012",
+    "citizenContact": "citizen@civicresolve.in",
+    "status": "Resolved",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Case registered by citizen (citizen@civicresolve.in)",
+        "timestamp": "2026-11-21T11:00:42.613Z"
+      },
+      {
+        "status": "Resolved",
+        "note": "Status updated to Resolved by pwd@civicresolve.gov",
+        "timestamp": "2026-11-21T11:00:42.616Z"
+      }
+    ],
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "cec6b405-4d70-4548-989b-e18491ee3272",
+        "update": "Official Case File #CR-2026-012 registered. Triaged to Electricity Department.",
+        "timestamp": "2026-11-21T11:00:42.613Z",
+        "author": "CivicResolve Municipal AI"
+      },
+      {
+        "id": "6fc55751-1d52-403b-a891-0732f4609bbf",
+        "update": "Case status updated to Resolved. ",
+        "timestamp": "2026-11-21T11:00:42.616Z",
+        "author": "pwd@civicresolve.gov"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T11:00:42.613Z",
+        "action": "Complaint Submitted & Digital Case File Opened",
+        "performedBy": "Priya Sundaram",
+        "role": "Citizen Reporter"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.613Z",
+        "action": "AI Triage: Classified as Streetlights & Power (Defective Streetlight Luminaire) with priority Critical",
+        "performedBy": "Gemini AI Engine",
+        "role": "System AI"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.616Z",
+        "action": "Status transitioned from Reported to Resolved: Updated",
+        "performedBy": "pwd@civicresolve.gov",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.738Z",
+        "action": "AI Photo Authenticity Check: Verified (Realistic on-site municipal complaint photograph verified authentic against municipal landmarks.)",
+        "performedBy": "Gemini Vision AI Engine",
+        "role": "System AI"
+      }
+    ],
+    "upvotes": 1,
+    "citizenReportCount": 1,
+    "linkedReports": [],
+    "slaDeadline": "2026-11-23T11:00:42.613Z",
+    "slaTargetHours": 48,
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "authenticityCheck": {
+      "status": "Verified",
+      "isAiGenerated": false,
+      "confidence": 98,
+      "reason": "Realistic on-site municipal complaint photograph verified authentic against municipal landmarks.",
+      "checkedAt": "2026-11-21T11:00:42.738Z"
+    },
+    "createdAt": "2026-11-21T11:00:42.613Z",
+    "updatedAt": "2026-11-21T11:00:42.738Z",
+    "resolvedAt": "2026-11-21T11:00:42.616Z"
+  },
+  {
+    "title": "Prank Report for Deduction Test",
+    "description": "Completely fake hoax submission for negative score verification.",
+    "location": "Non-existent Fake Road 99",
+    "latitude": 11.013903,
+    "longitude": 76.960357,
+    "category": "Other",
+    "subcategory": "General Civic Grievance",
+    "citizenName": "Concerned Citizen",
+    "priority": "Medium",
+    "priorityScore": 49,
+    "impactReasoning": "Rule-based assessment: Issue categorized as Other (General Civic Grievance) with Medium priority based on keyword analysis of the report.",
+    "department": "Municipal Administration",
+    "aiSummary": "Prank Report for Deduction Test reported at Non-existent Fake Road 99. Categorized under Other (General Civic Grievance).",
+    "recommendedAction": "Assign to Municipal Administration for inspection and remediation.",
+    "estimatedResolutionHours": 72,
+    "aiPowered": false,
+    "modelUsed": "rule-based-fallback",
+    "reporterContact": "citizen@civicresolve.in",
+    "imageUrls": [],
+    "id": "f0449ea0-487b-4985-a535-afd98fc17920",
+    "trackingId": "CR-2026-013",
+    "caseId": "CR-2026-013",
+    "citizenContact": "citizen@civicresolve.in",
+    "status": "Rejected",
+    "statusHistory": [
+      {
+        "status": "Reported",
+        "note": "Case registered by citizen (citizen@civicresolve.in)",
+        "timestamp": "2026-11-21T11:00:42.620Z"
+      },
+      {
+        "status": "Rejected",
+        "note": "Flagged as false/prank report by admin@civicresolve.gov: Confirmed prank submission by evaluator test",
+        "timestamp": "2026-11-21T11:00:42.622Z"
+      }
+    ],
+    "internalAdminNotes": [],
+    "publicUpdates": [
+      {
+        "id": "4bac0991-70ef-4ea7-b4a3-509cbbba42ff",
+        "update": "Official Case File #CR-2026-013 registered. Triaged to Municipal Administration.",
+        "timestamp": "2026-11-21T11:00:42.620Z",
+        "author": "CivicResolve Municipal AI"
+      }
+    ],
+    "actionHistory": [
+      {
+        "timestamp": "2026-11-21T11:00:42.620Z",
+        "action": "Complaint Submitted & Digital Case File Opened",
+        "performedBy": "Concerned Citizen",
+        "role": "Citizen Reporter"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.620Z",
+        "action": "AI Triage: Classified as Other (General Civic Grievance) with priority Medium",
+        "performedBy": "Gemini AI Engine",
+        "role": "System AI"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.622Z",
+        "action": "Flagged as false report: \"Confirmed prank submission by evaluator test\". Status marked as Rejected.",
+        "performedBy": "admin@civicresolve.gov",
+        "role": "Authority"
+      },
+      {
+        "timestamp": "2026-11-21T11:00:42.739Z",
+        "action": "AI Photo Authenticity Check: Suspected Fake (Image characteristics and context strongly indicate synthetic / AI-generated artwork or manipulated content.)",
+        "performedBy": "Gemini Vision AI Engine",
+        "role": "System AI"
+      }
+    ],
+    "upvotes": 1,
+    "citizenReportCount": 1,
+    "linkedReports": [],
+    "slaDeadline": "2026-11-24T11:00:42.620Z",
+    "slaTargetHours": 72,
+    "slaBreached": false,
+    "isEscalated": false,
+    "hoursOverdue": 0,
+    "authenticityCheck": {
+      "status": "Suspected Fake",
+      "isAiGenerated": true,
+      "confidence": 96,
+      "reason": "Image characteristics and context strongly indicate synthetic / AI-generated artwork or manipulated content.",
+      "checkedAt": "2026-11-21T11:00:42.739Z"
+    },
+    "createdAt": "2026-11-21T11:00:42.620Z",
+    "updatedAt": "2026-11-21T11:00:42.739Z",
+    "isFalseReport": true,
+    "falseReportReason": "Confirmed prank submission by evaluator test"
+  }
+]

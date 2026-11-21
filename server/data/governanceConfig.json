@@ -1,0 +1,9 @@
+{
+  "auditLogRetentionDays": 30,
+  "maxAuditLogs": 1000,
+  "maxLoginHistory": 500,
+  "rateLimitLoginMax": 15,
+  "rateLimitIssuesMax": 25,
+  "updatedAt": "2026-11-21T11:00:42.501Z",
+  "updatedBy": "commissioner@civicresolve.gov"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "demo-citizen-001",
+    "name": "Aarav Sharma",
+    "email": "citizen@civicresolve.in",
+    "mobile": "+91 98765 43210",
+    "salt": "112a4a95d2abd90273fcbfba3771c6f7",
+    "passwordHash": "67d0510ccee9101bd7643a07e9b3a04d262dc386e0a69ffec7d6fd7ed133550a696664d7977216fdcf3fb7cad5e56ab852bc9cf928e2697003e11186044b37cb",
+    "isMobileVerified": true,
+    "civicScore": 55,
+    "createdAt": "2026-01-10T08:00:00.000Z"
+  },
+  {
+    "id": "demo-citizen-002",
+    "name": "Dr. Meenakshi Sundaram",
+    "email": "meenakshi.s@civicresolve.in",
+    "mobile": "+91 98401 22334",
+    "salt": "demo_citizen_salt_2026",
+    "passwordHash": "86e797cfa9d8eb15ea898dce2ba873ded729fb8356912f67b828c6161c0c33b88cc7c4a2ee7b549ea72b0fd94957cf62d0d7d07c6e679b71a731d7f3d51aae2e",
+    "isMobileVerified": true,
+    "civicScore": 95,
+    "createdAt": "2026-01-12T09:30:00.000Z"
+  },
+  {
+    "id": "demo-citizen-003",
+    "name": "Kavitha Ramakrishnan",
+    "email": "kavitha.r@civicresolve.in",
+    "mobile": "+91 98402 33445",
+    "salt": "demo_citizen_salt_2026",
+    "passwordHash": "86e797cfa9d8eb15ea898dce2ba873ded729fb8356912f67b828c6161c0c33b88cc7c4a2ee7b549ea72b0fd94957cf62d0d7d07c6e679b71a731d7f3d51aae2e",
+    "isMobileVerified": true,
+    "civicScore": 80,
+    "createdAt": "2026-01-15T11:15:00.000Z"
+  },
+  {
+    "id": "demo-citizen-004",
+    "name": "Suresh Kumar",
+    "email": "suresh.k@civicresolve.in",
+    "mobile": "+91 98403 44556",
+    "salt": "demo_citizen_salt_2026",
+    "passwordHash": "86e797cfa9d8eb15ea898dce2ba873ded729fb8356912f67b828c6161c0c33b88cc7c4a2ee7b549ea72b0fd94957cf62d0d7d07c6e679b71a731d7f3d51aae2e",
+    "isMobileVerified": true,
+    "civicScore": 65,
+    "createdAt": "2026-01-20T14:45:00.000Z"
+  },
+  {
+    "id": "demo-citizen-005",
+    "name": "Rajeshwari N.",
+    "email": "rajeshwari.n@civicresolve.in",
+    "mobile": "+91 98404 55667",
+    "salt": "demo_citizen_salt_2026",
+    "passwordHash": "86e797cfa9d8eb15ea898dce2ba873ded729fb8356912f67b828c6161c0c33b88cc7c4a2ee7b549ea72b0fd94957cf62d0d7d07c6e679b71a731d7f3d51aae2e",
+    "isMobileVerified": true,
+    "civicScore": 50,
+    "createdAt": "2026-01-25T16:20:00.000Z"
+  },
+  {
+    "id": "52f0d434-068e-4652-86eb-4f4a33b5f64c",
+    "name": "Priya Sundaram",
+    "email": "tester_1795258842568@example.com",
+    "mobile": "+91 5258842568",
+    "passwordHash": "6a938d1484b77c40c6deae8667a1042e805415f7c481edb203fc8740c0c3469b03f6c6fa7f8351947a6c9e151ab3fbb184600d2b0849f2dedf2edf45ba6b3aa8",
+    "salt": "5598554b48598b613968554a68e8355f",
+    "isMobileVerified": true,
+    "civicScore": 0,
+    "createdAt": "2026-11-21T11:00:42.601Z"
+  }
+]
