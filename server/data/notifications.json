@@ -1,14 +1,25 @@
 [
   {
+    "issueId": "test-issue-56",
+    "caseId": "CR-2026-056",
+    "title": "Test Grievance Alert #56",
+    "message": "Automated test dispatch update #56",
+    "type": "STATUS_UPDATE",
+    "channel": "In-App",
+    "id": "b9582b4c-182b-4565-b3e3-b0dc8e2aac6d",
+    "status": "unread",
+    "timestamp": "2026-11-21T11:47:09.390Z"
+  },
+  {
     "issueId": "test-issue-55",
     "caseId": "CR-2026-055",
     "title": "Test Grievance Alert #55",
     "message": "Automated test dispatch update #55",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "9b2b43dc-583e-46fa-9d60-aa058be1d070",
+    "id": "e3d02867-69f1-4f5a-9377-2aac058ed313",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.390Z"
   },
   {
     "issueId": "test-issue-54",
@@ -17,9 +28,9 @@
     "message": "Automated test dispatch update #54",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "fcfb61ab-d853-4554-bf94-611b90321463",
+    "id": "5393727b-c90b-4fa9-a288-bc13c7ec9fdd",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-53",
@@ -28,9 +39,9 @@
     "message": "Automated test dispatch update #53",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "b37ef194-c305-4ef0-8ab2-4ae909648f9a",
+    "id": "945bafdb-0b38-4149-95ba-f89568854ca4",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-52",
@@ -39,9 +50,9 @@
     "message": "Automated test dispatch update #52",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "415a21a8-a5ed-4f48-9447-9b5e4bf64e1f",
+    "id": "f7aa6acc-4c05-4f12-9388-509450197268",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-51",
@@ -50,9 +61,9 @@
     "message": "Automated test dispatch update #51",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "55ed7908-b25f-4507-934a-169965268301",
+    "id": "ebe435d6-56fd-4744-9100-95a787eaf4e6",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-50",
@@ -61,9 +72,9 @@
     "message": "Automated test dispatch update #50",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "2ac542c3-537d-4f7b-8762-9498196d5613",
+    "id": "19653faa-f931-4595-a72c-ab8c4815950c",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.632Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-49",
@@ -72,9 +83,9 @@
     "message": "Automated test dispatch update #49",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "ba2bb3c4-196b-4f59-8f6c-7c1049cec3f7",
+    "id": "a3c418cf-e97d-43a0-a0fd-615c65a21ef0",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-48",
@@ -83,9 +94,9 @@
     "message": "Automated test dispatch update #48",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "59886306-5d37-4d25-94fa-5803f78ce6ce",
+    "id": "4297d982-a6de-4811-96bc-a8e0933b487d",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-47",
@@ -94,9 +105,9 @@
     "message": "Automated test dispatch update #47",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "7c727565-430e-4e00-999e-fc7a1bb5a14d",
+    "id": "ae256b0e-155f-425e-911d-fdedaa4706b2",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.389Z"
   },
   {
     "issueId": "test-issue-46",
@@ -105,9 +116,9 @@
     "message": "Automated test dispatch update #46",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "6fcdc1ae-9992-4f0f-ad83-9ab56dfe36eb",
+    "id": "c7c442f1-e647-4f72-99be-87e6e733aec0",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-45",
@@ -116,9 +127,9 @@
     "message": "Automated test dispatch update #45",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "59edcc35-4b46-41b6-a20e-36c463337115",
+    "id": "c6e337ae-b6b7-47d1-b0c5-680efb9c1382",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-44",
@@ -127,9 +138,9 @@
     "message": "Automated test dispatch update #44",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "3dda8ad6-6537-4dbc-9007-7e6e00b7b047",
+    "id": "753dc563-fadf-47c0-9825-ed6b97f2b2d3",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.631Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-43",
@@ -138,9 +149,9 @@
     "message": "Automated test dispatch update #43",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "24941150-5e5f-4242-8f6e-ecd16267b11a",
+    "id": "f52f2ba1-ed92-49c4-bb33-821d6deed2df",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-42",
@@ -149,9 +160,9 @@
     "message": "Automated test dispatch update #42",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "f0ace014-20da-4b56-ab1d-3fb1578b06df",
+    "id": "35b15187-6361-46b3-8e5a-d78b4abe0d6b",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-41",
@@ -160,9 +171,9 @@
     "message": "Automated test dispatch update #41",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "27731a2c-1dd2-44a4-92c3-3151d343dd12",
+    "id": "ebffa194-3942-4e42-878b-bdf5091173c3",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-40",
@@ -171,9 +182,9 @@
     "message": "Automated test dispatch update #40",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "3c36311b-c5a5-4db2-91c6-97c863766a52",
+    "id": "1ea3201e-e8ac-4c9a-a59d-29769e02cdcc",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-39",
@@ -182,9 +193,9 @@
     "message": "Automated test dispatch update #39",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "aa992f14-59dc-443d-99f1-33cf07c5135f",
+    "id": "6d5ef060-74f9-4386-99be-2a09d8acba3c",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.388Z"
   },
   {
     "issueId": "test-issue-38",
@@ -193,9 +204,9 @@
     "message": "Automated test dispatch update #38",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "40096767-0224-4f38-aaea-573cfbaba1ed",
+    "id": "ea0145e1-a6b9-4bf6-aed5-3fe67de48bd2",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.630Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-37",
@@ -204,9 +215,9 @@
     "message": "Automated test dispatch update #37",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "8a5ea921-5d52-4244-b9ab-3aca95c9ea27",
+    "id": "e39132da-e086-4207-943e-5a298d887839",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.629Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-36",
@@ -215,9 +226,9 @@
     "message": "Automated test dispatch update #36",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "dcb025fa-906d-4db8-a2ae-5ddbb7878e26",
+    "id": "7f280e07-fb01-4c2d-89bc-1e4bf611a9f6",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.629Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-35",
@@ -226,9 +237,9 @@
     "message": "Automated test dispatch update #35",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "a1c33446-187e-4860-8f86-cb77152353d0",
+    "id": "4c876a7b-e35e-4f53-b8df-c66206711fb6",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.629Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-34",
@@ -237,9 +248,9 @@
     "message": "Automated test dispatch update #34",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "09b1210d-e9da-4709-ad51-a0e819b902a3",
+    "id": "113fa851-7ce3-4cc1-a771-64d04539a1b1",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.629Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-33",
@@ -248,9 +259,9 @@
     "message": "Automated test dispatch update #33",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "bc563d7f-7593-4c2a-b9f4-84608745254c",
+    "id": "23e6f2fc-edf9-4aaa-874d-7426ab90e507",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.629Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-32",
@@ -259,9 +270,9 @@
     "message": "Automated test dispatch update #32",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "15e12dae-f060-45b0-a2ca-850d73d9df13",
+    "id": "e09d693b-fcef-4f22-862c-8f98f9c41295",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.387Z"
   },
   {
     "issueId": "test-issue-31",
@@ -270,9 +281,9 @@
     "message": "Automated test dispatch update #31",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "b4b271fc-7a4b-47ec-be6b-e49e686e0929",
+    "id": "74382e50-3b35-4904-8e8d-b8f814b12b2c",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-30",
@@ -281,9 +292,9 @@
     "message": "Automated test dispatch update #30",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "65cac227-fdb5-4f2e-832f-54e5235f7680",
+    "id": "f8688f51-99fd-4aba-8922-28a6d9bcc615",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-29",
@@ -292,9 +303,9 @@
     "message": "Automated test dispatch update #29",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "fb39af13-055f-40e5-af18-d6abb6d44c45",
+    "id": "edc748f6-d554-47cf-8f55-9d32b7c316fa",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-28",
@@ -303,9 +314,9 @@
     "message": "Automated test dispatch update #28",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "a6f7167f-57af-4577-8e6a-52d8b2d42320",
+    "id": "2ef96862-14fa-4e55-a3cb-7ccb48869a1f",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-27",
@@ -314,9 +325,9 @@
     "message": "Automated test dispatch update #27",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "8b680407-8091-466f-8ade-f7dbd680c75d",
+    "id": "fbd23810-1bff-41fd-87ff-877a68b1ab46",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-26",
@@ -325,9 +336,9 @@
     "message": "Automated test dispatch update #26",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "9d3e4007-4e21-43c1-87e0-23e37beac5d2",
+    "id": "3abe3432-9626-4da9-975c-587b08878fd6",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-25",
@@ -336,9 +347,9 @@
     "message": "Automated test dispatch update #25",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "ca164ac1-7382-4487-9943-c132decfbaf9",
+    "id": "32ace334-6873-45ab-a2a7-bd4ec254d938",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.628Z"
+    "timestamp": "2026-11-21T11:47:09.386Z"
   },
   {
     "issueId": "test-issue-24",
@@ -347,9 +358,9 @@
     "message": "Automated test dispatch update #24",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "c0e29cdc-912a-4362-8558-9809d219a9fb",
+    "id": "66d208ad-04ed-4c32-b514-81515dcd0412",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-23",
@@ -358,9 +369,9 @@
     "message": "Automated test dispatch update #23",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "b375ea03-dd28-474c-a9ca-e235766e1d7d",
+    "id": "df73fc2b-ecd3-4d09-85c3-00d715135d8e",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-22",
@@ -369,9 +380,9 @@
     "message": "Automated test dispatch update #22",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "f13386db-bf0f-473a-9ef6-c1c53ecd2550",
+    "id": "39bbaac0-44ab-42e4-83a0-ba5e51ba3b58",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-21",
@@ -380,9 +391,9 @@
     "message": "Automated test dispatch update #21",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "72b575e4-4e6a-4256-b681-f0007a67d080",
+    "id": "82b82014-d569-4868-aec8-8df2fefa44c9",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-20",
@@ -391,9 +402,9 @@
     "message": "Automated test dispatch update #20",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "ddf4af70-f266-48f3-bdfa-e69d9271578e",
+    "id": "4aa19358-0e28-4b8f-bea1-3e1c2f387783",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-19",
@@ -402,9 +413,9 @@
     "message": "Automated test dispatch update #19",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "810c8692-d240-41e0-9593-f399d4a6d1a2",
+    "id": "0bf0d85f-b353-4bde-8e7a-45e227fb2868",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.385Z"
   },
   {
     "issueId": "test-issue-18",
@@ -413,9 +424,9 @@
     "message": "Automated test dispatch update #18",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "307ba0b7-2886-4e31-aee4-e1a66c526b9e",
+    "id": "d907d67c-8959-4fad-9012-6f4c75bd227e",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.384Z"
   },
   {
     "issueId": "test-issue-17",
@@ -424,9 +435,9 @@
     "message": "Automated test dispatch update #17",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "a1a892cc-2e78-4c2b-85e6-8c8099c51b9a",
+    "id": "c556d3df-a7ae-46f1-87cd-b8d2a49fc279",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.384Z"
   },
   {
     "issueId": "test-issue-16",
@@ -435,9 +446,9 @@
     "message": "Automated test dispatch update #16",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "318d8cae-928d-45f0-b30d-e10020a4286e",
+    "id": "819a4afa-a1fe-4b7c-b12a-b7368659e0eb",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.627Z"
+    "timestamp": "2026-11-21T11:47:09.384Z"
   },
   {
     "issueId": "test-issue-15",
@@ -446,9 +457,9 @@
     "message": "Automated test dispatch update #15",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "4146ef37-e54e-47a7-9e66-72e21fd50a19",
+    "id": "2f0d85dc-1d8a-4564-a074-2a644a82a534",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.626Z"
+    "timestamp": "2026-11-21T11:47:09.384Z"
   },
   {
     "issueId": "test-issue-14",
@@ -457,9 +468,9 @@
     "message": "Automated test dispatch update #14",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "62ec2721-6aaf-4a7b-9d87-4a522a027c53",
+    "id": "3aa0d533-fbfc-49b0-93b1-18ad05161fea",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.626Z"
+    "timestamp": "2026-11-21T11:47:09.384Z"
   },
   {
     "issueId": "test-issue-13",
@@ -468,9 +479,9 @@
     "message": "Automated test dispatch update #13",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "fb1a4187-4154-4fb2-a6c4-3a1aa6c0b83b",
+    "id": "2ab5e594-ce44-4946-88a2-0af710c8a108",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.626Z"
+    "timestamp": "2026-11-21T11:47:09.383Z"
   },
   {
     "issueId": "test-issue-12",
@@ -479,9 +490,9 @@
     "message": "Automated test dispatch update #12",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "2539fcae-0748-40b8-b2b4-3ef4ad6a9be3",
+    "id": "000cd18a-8e8a-45e1-998f-3b01cb450593",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.626Z"
+    "timestamp": "2026-11-21T11:47:09.383Z"
   },
   {
     "issueId": "test-issue-11",
@@ -490,8 +501,8 @@
     "message": "Automated test dispatch update #11",
     "type": "STATUS_UPDATE",
     "channel": "In-App",
-    "id": "94b6fdce-87d1-49c7-abb9-e5a33efc3c6f",
+    "id": "503adc5f-09a8-40b0-93c1-aca8e347f2a9",
     "status": "unread",
-    "timestamp": "2026-11-21T11:00:42.626Z"
+    "timestamp": "2026-11-21T11:47:09.383Z"
   }
 ]

@@ -234,8 +234,10 @@ function withTimeout<T>(promise: Promise<T>, timeoutMs: number, operationName: s
 }
 
 export async function triageIssue(input: TriageInput): Promise<TriageResult> {
-  if (!process.env.GEMINI_API_KEY) {
-    console.log('[Gemini AI] No GEMINI_API_KEY set, using rule-based triage.');
+  if (!process.env.GEMINI_API_KEY || process.env.NODE_ENV === 'test') {
+    if (!process.env.GEMINI_API_KEY && process.env.NODE_ENV !== 'test') {
+      console.log('[Gemini AI] No GEMINI_API_KEY set, using rule-based triage.');
+    }
     return ruleBasedTriage(input);
   }
 

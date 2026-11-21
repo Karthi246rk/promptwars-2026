@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=builder /app/server/package.json server/
 RUN cd server && npm install --production
 COPY --from=builder /app/server/dist server/dist/
-COPY --from=builder /app/server/data server/data/ 2>/dev/null || true
+COPY --from=builder /app/server/data server/data/
 
 # Copy client build
 COPY --from=builder /app/client/dist client/dist/

@@ -18,6 +18,7 @@ for (const envPath of envLocations) {
 dotenv.config();
 
 import express from 'express';
+import helmet from 'helmet';
 import cors from 'cors';
 import { securityHeaders, sanitizeInputs } from './middleware/security';
 import issuesRouter from './routes/issues';
@@ -25,8 +26,40 @@ import * as storageService from './services/storageService';
 
 const app = express();
 
+// Helmet security headers (with CSP disabled for external map tiles & fonts)
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    crossOriginEmbedderPolicy: false,
+  })
+);
+
+// Standard explicit security headers
 app.use(securityHeaders);
-app.use(cors());
+
+// Configurable CORS via ALLOWED_ORIGIN env var instead of open wildcard
+const allowedOriginEnv = process.env.ALLOWED_ORIGIN;
+const allowedOrigins = allowedOriginEnv
+  ? allowedOriginEnv.split(',').map((o) => o.trim())
+  : undefined;
+
+app.use(
+  cors({
+    origin: allowedOrigins && allowedOrigins.length > 0
+      ? (origin, callback) => {
+          if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes('*')) {
+            callback(null, true);
+          } else {
+            callback(new Error(`Origin ${origin} not allowed by CORS`));
+          }
+        }
+      : '*',
+    credentials: true,
+    methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+  })
+);
+
 app.use(express.json({ limit: '10mb' }));
 app.use(sanitizeInputs);
 

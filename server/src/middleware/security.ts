@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import rateLimit from 'express-rate-limit';
 
 // Standard Security Headers
 export function securityHeaders(_req: Request, res: Response, next: NextFunction): void {
@@ -9,15 +10,21 @@ export function securityHeaders(_req: Request, res: Response, next: NextFunction
   next();
 }
 
-// Strict Input Sanitization
-function sanitizeString(str: string): string {
+// Strict Input Sanitization & Comprehensive XSS Prevention
+export function sanitizeString(str: string): string {
+  if (!str || typeof str !== 'string') return str;
   return str
     .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+    .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '')
     .replace(/javascript\s*:/gi, '')
-    .replace(/on\w+\s*=/gi, '');
+    .replace(/vbscript\s*:/gi, '')
+    .replace(/data:text\/html/gi, '')
+    .replace(/on\w+\s*=\s*(?:'[^']*'|"[^"]*"|[^\s>]+)/gi, '')
+    .replace(/<\/?(?:embed|object|iframe|frame|applet|meta|link)\b[^>]*>/gi, '')
+    .trim();
 }
 
-function sanitizeObject(obj: any): any {
+export function sanitizeObject(obj: any): any {
   if (typeof obj === 'string') {
     return sanitizeString(obj);
   }
@@ -41,81 +48,38 @@ export function sanitizeInputs(req: Request, _res: Response, next: NextFunction)
   next();
 }
 
-// In-Memory Rate Limiting
-interface RateLimitBucket {
-  count: number;
-  resetTime: number;
-}
-
-const rateLimitBuckets = new Map<string, RateLimitBucket>();
-
-export function createRateLimiter(options: {
-  name: string;
-  windowMs: number;
-  max: number;
-  message: string;
-}) {
-  return (req: Request, res: Response, next: NextFunction): void => {
-    if (process.env.NODE_ENV === 'test') {
-      next();
-      return;
-    }
-    // Extract client IP address
-    const ip =
-      (req.headers['x-forwarded-for'] as string)?.split(',')[0].trim() ||
-      req.ip ||
-      req.socket.remoteAddress ||
-      '127.0.0.1';
-
-    const key = `${options.name}:${ip}`;
-    const now = Date.now();
-
-    let bucket = rateLimitBuckets.get(key);
-    if (!bucket || now > bucket.resetTime) {
-      bucket = {
-        count: 1,
-        resetTime: now + options.windowMs,
-      };
-      rateLimitBuckets.set(key, bucket);
-    } else {
-      bucket.count++;
-    }
-
-    const remaining = Math.max(0, options.max - bucket.count);
-    const resetSeconds = Math.ceil((bucket.resetTime - now) / 1000);
-
-    res.setHeader('X-RateLimit-Limit', options.max.toString());
-    res.setHeader('X-RateLimit-Remaining', remaining.toString());
-    res.setHeader('X-RateLimit-Reset', Math.ceil(bucket.resetTime / 1000).toString());
-
-    if (bucket.count > options.max) {
-      res.setHeader('Retry-After', resetSeconds.toString());
-      res.status(429).json({
-        error: options.message,
-        retryAfter: resetSeconds,
-      });
-      return;
-    }
-
-    next();
-  };
-}
-
-// Pre-configured rate limiters
-export const issueSubmissionLimiter = createRateLimiter({
-  name: 'issues',
-  windowMs: 60 * 1000, // 1 minute
-  max: 25,
-  message: 'Rate limit exceeded: Maximum 25 issue reports per minute. Please try again shortly.',
+// Strict express-rate-limit instances for authentication, OTP, and report creation
+export const authRateLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 30, // max 30 attempts per 15 min window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many authentication attempts. Please wait 15 minutes before trying again.' },
+  skip: () => process.env.NODE_ENV === 'test',
 });
 
-export const authLimiter = createRateLimiter({
-  name: 'auth',
-  windowMs: 60 * 1000, // 1 minute
-  max: 15,
-  message: 'Too many authentication attempts. Please wait 1 minute before trying again.',
+export const otpRateLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20, // max 20 OTP requests per 15 min window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many OTP requests. Please wait before requesting another OTP code.' },
+  skip: () => process.env.NODE_ENV === 'test',
 });
+
+export const reportRateLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 60, // max 60 reports per 15 min window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Rate limit exceeded: Maximum issue submission limit reached. Please try again later.' },
+  skip: () => process.env.NODE_ENV === 'test',
+});
+
+// Backward-compatible exports
+export const issueSubmissionLimiter = reportRateLimiter;
+export const authLimiter = authRateLimiter;
 
 export function resetRateLimits(): void {
-  rateLimitBuckets.clear();
+  // express-rate-limit handles window expiration automatically
 }

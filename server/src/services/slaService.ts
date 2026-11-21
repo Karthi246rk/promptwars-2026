@@ -116,7 +116,7 @@ export function evaluateSlaStatus(issue: {
     slaTargetHours: targetHours,
     slaDeadline: deadline,
     slaBreached: isBreached,
-    isEscalated: isBreached,
+    isEscalated: isBreached || (hoursRemaining <= 6 && hoursRemaining >= 0),
     hoursOverdue,
     hoursRemaining,
   };

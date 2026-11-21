@@ -6,7 +6,7 @@ import * as slaService from '../services/slaService';
 import * as authService from '../services/authService';
 import * as governanceService from '../services/governanceService';
 import * as citizenAuthService from '../services/citizenAuthService';
-import { issueSubmissionLimiter, authLimiter } from '../middleware/security';
+import { issueSubmissionLimiter, authLimiter, otpRateLimiter } from '../middleware/security';
 
 const router = Router();
 
@@ -164,9 +164,18 @@ router.post('/api/issues', issueSubmissionLimiter, handleImageUpload, async (req
       }
     }
 
-    // Handle coordinates: directly or parsed from text
+    // Explicit coordinate validation
     let latitude: number | undefined = rawLat !== undefined && rawLat !== '' ? parseFloat(rawLat) : undefined;
     let longitude: number | undefined = rawLng !== undefined && rawLng !== '' ? parseFloat(rawLng) : undefined;
+
+    if (latitude !== undefined && (isNaN(latitude) || latitude < -90 || latitude > 90)) {
+      res.status(400).json({ error: 'Latitude must be a valid number between -90 and 90' });
+      return;
+    }
+    if (longitude !== undefined && (isNaN(longitude) || longitude < -180 || longitude > 180)) {
+      res.status(400).json({ error: 'Longitude must be a valid number between -180 and 180' });
+      return;
+    }
 
     if ((latitude === undefined || isNaN(latitude)) && typeof location === 'string') {
       const coordMatch = location.match(/(-?\d+\.\d+)\s*,\s*(-?\d+\.\d+)/);
@@ -263,6 +272,17 @@ router.patch('/api/issues/:id', async (req: Request<{ id: string }>, res: Respon
   try {
     const id = req.params.id as string;
     const { status, department, priority, priorityScore, resolutionNote, assignedOfficer, adminEmail } = req.body;
+
+    const VALID_STATUSES = ['Reported', 'In Progress', 'Resolved', 'Rejected'];
+    if (status && !VALID_STATUSES.includes(status)) {
+      res.status(400).json({ error: `Invalid status. Allowed values: ${VALID_STATUSES.join(', ')}` });
+      return;
+    }
+    const VALID_PRIORITIES = ['Critical', 'High', 'Medium', 'Low'];
+    if (priority && !VALID_PRIORITIES.includes(priority)) {
+      res.status(400).json({ error: `Invalid priority. Allowed values: ${VALID_PRIORITIES.join(', ')}` });
+      return;
+    }
 
     const previous = await storageService.getIssueById(id);
     const updated = await storageService.updateIssue(id, {
@@ -636,8 +656,20 @@ router.post('/api/auth/login', authLimiter, async (req: Request, res: Response) 
           ip,
           userAgent,
         });
+
+        const isProd = process.env.NODE_ENV === 'production';
+        res.cookie('token', token, {
+          httpOnly: true,
+          secure: isProd,
+          sameSite: 'strict',
+          maxAge: 24 * 60 * 60 * 1000,
+        });
+
         res.json({
           token,
+          tokenType: 'Bearer',
+          expiresIn: '24h',
+          secure: true,
           user: {
             email: account.email,
             name: account.name,
@@ -712,8 +744,19 @@ router.post('/api/auth/verify-mfa', authLimiter, async (req: Request, res: Respo
       userAgent,
     });
 
+    const isProd = process.env.NODE_ENV === 'production';
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: isProd,
+      sameSite: 'strict',
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+
     res.json({
       token,
+      tokenType: 'Bearer',
+      expiresIn: '24h',
+      secure: true,
       user: {
         email: account.email,
         name: account.name,
@@ -728,7 +771,7 @@ router.post('/api/auth/verify-mfa', authLimiter, async (req: Request, res: Respo
   }
 });
 
-router.post('/api/auth/forgot-password', authLimiter, async (req: Request, res: Response) => {
+router.post('/api/auth/forgot-password', otpRateLimiter, async (req: Request, res: Response) => {
   try {
     const { email, userType } = req.body;
     if (!email || !userType || !['citizen', 'admin'].includes(userType)) {
@@ -763,7 +806,7 @@ router.post('/api/auth/forgot-password', authLimiter, async (req: Request, res: 
   }
 });
 
-router.post('/api/auth/reset-password', authLimiter, async (req: Request, res: Response) => {
+router.post('/api/auth/reset-password', otpRateLimiter, async (req: Request, res: Response) => {
   try {
     const { email, userType, otp, newPassword } = req.body;
     if (!email || !userType || !otp || !newPassword) {
@@ -872,7 +915,7 @@ router.put('/api/governance/config', (req: Request, res: Response) => {
 // Citizen Authentication & First-Time Mobile OTP
 // ==========================================
 
-router.post('/api/citizens/register', authLimiter, async (req: Request, res: Response) => {
+router.post('/api/citizens/register', otpRateLimiter, async (req: Request, res: Response) => {
   try {
     const { name, email, mobile, password } = req.body;
     if (!name || !email || !mobile || !password) {
@@ -890,7 +933,7 @@ router.post('/api/citizens/register', authLimiter, async (req: Request, res: Res
   }
 });
 
-router.post('/api/citizens/verify-otp', authLimiter, async (req: Request, res: Response) => {
+router.post('/api/citizens/verify-otp', otpRateLimiter, async (req: Request, res: Response) => {
   try {
     const { tempId, otp } = req.body;
     if (!tempId || !otp) {
@@ -912,7 +955,19 @@ router.post('/api/citizens/login', authLimiter, async (req: Request, res: Respon
       return;
     }
     const result = citizenAuthService.loginCitizen(email, password);
-    res.json(result);
+    const isProd = process.env.NODE_ENV === 'production';
+    res.cookie('token', result.token, {
+      httpOnly: true,
+      secure: isProd,
+      sameSite: 'strict',
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+    res.json({
+      ...result,
+      tokenType: 'Bearer',
+      expiresIn: '24h',
+      secure: true,
+    });
   } catch (err: any) {
     res.status(401).json({ error: err.message || 'Invalid credentials' });
   }
